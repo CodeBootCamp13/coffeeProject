@@ -1,0 +1,125 @@
+.coffee-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size:0.9em;
+    min-width: 400px; 
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15); 
+    
+}    
+
+.coffee-table thead tr {
+    background-color: #B33F40 ;
+    color: #ffffff;
+    text-align: left;
+    font-weight:bold; 
+
+}
+
+
+
+.coffee-table tbody tr{
+    border-bottom: 1px solid #dddddd
+
+}
+
+.coffee-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.coffee-table tbody tr:last-of-type {
+    border-bottom:2px solid #B33F40 ;
+}
+
+.header {
+    overflow:auto;
+    background-color: #B33F40;
+    height: 75px;
+
+
+}
+
+.header .logo {
+    float:left;
+    width: 3%;
+
+
+}
+
+.header h1{
+    color: black;
+    font-size:17px;
+    font-family: sans-serif;
+    float: left;
+    position: relative;
+    top:0;
+}
+.header p {
+    color: black;
+    font-size:15px;
+    font-family: sans-serif;
+    float: left;
+    padding-left: 120px;
+    position: absolute;
+    padding-top: 15px;
+}
+
+#menu {
+    float:right;
+    font-size: 25px;
+    color:black;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+a {
+    color:black;
+}
+
+#roastDate, #batchSize, #coffeeName, #roastTemp {
+    margin-top:15px;
+}
+
+.header h3 {
+    color:black;
+    position: absolute;
+    margin-left:900px;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.graph {
+    float: right;
+    position: relative;
+    top: -900px;
+    left: -200px;
+    width: 35%;
+}
+
+.history-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size:0.9em;
+    min-width: 400px; 
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15); 
+    border:black;
+    float: right;
+    position: relative;
+    left: 600px;
+    top: -295px;
+    width: 40%;
+}
+
+.history-table tbody td {
+    border:2px solid black 
+
+}
+
+.history-table  thead tr {
+    background-color: #B33F40 ;
+    color: #ffffff;
+    text-align: left;
+    font-weight:bold; 
+    border: 2px solid black;
+}

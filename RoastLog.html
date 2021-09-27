@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Coffee Roasting Log</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+            <img src="coffee-logo.png" class="logo"> 
+                <h1>Home Roasting Company.</h1> 
+                    <p>Est. 2021</p>
+        
+        <h2 id="menu">
+            <a href="#" class="active">Home</a>
+            <a href="#"> About</a>
+            <a href="RoastLog.html"> Log</a>
+            <a href="#"> Map</a>
+        </h2>
+        <h3>Roast Log</h3>
+    </div>
+    <div>
+    <form>
+        <label for="roastDate" id="roastDate">Date of Roast</label>
+        <input type="date" id="roastDate" name="roastDate">
+        <label for="batchSize" id="batchSize">Batch Size</label>
+        <input type="text"  id="batchSize" name="batchSize">
+        <label for="coffeeName" id="coffeeName"> Coffee Type/Origin</label>
+        <input type="text" id="coffeeName" name="coffeeName">
+        
+        <label for="roastTemp" id="roastTemp"> Preheat Roast Temperature</label>
+        <input type="text" id="roastTemp" name="roastTemp">
+        <br>
+
+        <table class="coffee-table">
+            <thead>
+                <tr>
+                <td>Minutes</td>
+                <td>Temperature (Fº)</td>
+                <td>Phase</td>
+                <td>Notes</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Minute 1</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 2</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 3</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 4</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 5</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 6</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 7</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 8</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 9</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 10</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 11</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 12</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 13</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 14</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> Minute 15</td>
+                <td>
+                    <label for="roastingTemp"></label>
+                    <input type="text" id="roastingTemp" name="roastingTemp"> 
+                </td>
+                <td>
+                    <label for="roastPhase"></label>
+                    <select name="roastPhase" id="roastPhase">
+                        <option value="developing">Developing</option>
+                        <option value="yellowing">Yellowing</option>
+                        <option value="browning">Browning</option>
+                        <option value="1Crack">1st Crack</option>
+                        <option value="2Crack">2nd Crack</option>
+                        <option value="endDrop">End/Drop</option>
+                    </select> 
+                </td>
+                <td>
+                    <label for="roastingNotes"></label>
+                    <textarea id="roastingNotes" name="roastingNotes" rows="3" cols="80">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+        </tbody>
+        </table>
+    </form>
+    </div>
+
+    <div >
+        <img src="/example-graph.png" class="graph">
+    </div>
+    <table class="history-table">
+        <thead>
+            <tr>
+                <td>Roast Date</td>
+                <td>Coffee Type/Origin</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 09/26/2021</td>
+                <td> Ethiopia Dry Process Mahamed Aba Nura</td>
+            </tr>
+            <tr>
+                <td> 09/30/2021</td>
+                <td> Sumatra Raja Batak Peaberry </td>
+            </tr>
+        </tbody>
+</html>
