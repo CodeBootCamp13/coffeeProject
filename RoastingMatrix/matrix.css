@@ -40,3 +40,7 @@
     height:150px;
     box-shadow:0 0 20px rgba(10,10,10,0.15); 
 }
+
+.matrix tbody td:hover{
+    font-size: 2em;
+}
