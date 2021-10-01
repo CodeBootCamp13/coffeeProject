@@ -1,0 +1,55 @@
+.header {
+    overflow:auto;
+    background-color: #B33F40;
+    height: 75px;
+}
+
+.header .logo {
+    float:left;
+    width: 3%;
+}
+
+.header h1{
+    color: black;
+    font-size:17px;
+    font-family: sans-serif;
+    float: left;
+    position: relative;
+    top:0;
+}
+.header p {
+    color: black;
+    font-size:15px;
+    font-family: sans-serif;
+    float: left;
+    padding-left: 120px;
+    position: absolute;
+    padding-top: 15px;
+}
+
+#menu {
+    float:right;
+    font-size: 25px;
+    color:black;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+a {
+    color:black;
+}
+
+
+#coffeeMap {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -175px;
+}
+
+#titlePage {
+    color:black;
+    font-size:50px;
+    font-family: sans-serif;
+    text-align: center;
+}
